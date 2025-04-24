@@ -1,0 +1,19 @@
+{
+  "name": "server",
+  "version": "1.0.0",
+  "description": "This is a Node Express Server Backend fro Frontend React Vite",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MuhammedAslamShahS/Server.git"
+  },
+  "author": "Muhammed Aslam Shah S",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MuhammedAslamShahS/Server/issues"
+  },
+  "homepage": "https://github.com/MuhammedAslamShahS/Server#readme"
+}

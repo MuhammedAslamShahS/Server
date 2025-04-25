@@ -4,7 +4,9 @@
   "description": "This is a Node Express Server Backend fro Frontend React Vite",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js",
+    "dev": "nodemon index.js"
   },
   "repository": {
     "type": "git",
@@ -15,5 +17,12 @@
   "bugs": {
     "url": "https://github.com/MuhammedAslamShahS/Server/issues"
   },
-  "homepage": "https://github.com/MuhammedAslamShahS/Server#readme"
+  "homepage": "https://github.com/MuhammedAslamShahS/Server#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^5.1.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.10"
+  }
 }
